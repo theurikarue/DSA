@@ -1,5 +1,6 @@
 /*Programme that has the function checkbalance that accepts a string of code and checks whether braces are balanced
 
+*/
 #include<iostream>
 #include<stack>
 using namespace std;
