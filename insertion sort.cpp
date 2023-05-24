@@ -20,7 +20,7 @@ void insertionSort(int arr[], int n)
         arr[j + 1] = key;
     }
 }
- // A utility function to print an array of size n
+ /* A utility function to print an array of size n*/
 void printArray(int arr[], int n)
 {
     int i;
@@ -28,7 +28,7 @@ void printArray(int arr[], int n)
         cout << arr[i] << " ";
     cout << endl;
 }
- // Driver code
+ /* Driver code*/
 int main()
 {
     int arr[] = { 35, 67, 12, 11, 13, 5, 6 };
