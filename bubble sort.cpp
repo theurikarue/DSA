@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
  
-// A function to implement bubble sort
+/*A function to implement bubble sort*/
 void bubbleSort(int arr[], int n)
 {
     int i, j;
@@ -15,7 +15,7 @@ void bubbleSort(int arr[], int n)
                 swap(arr[j], arr[j + 1]);
 }
  
-// Function to print an array
+/* Function to print an array*/
 void printArray(int arr[], int size)
 {
     int i;
@@ -24,7 +24,7 @@ void printArray(int arr[], int size)
     cout << endl;
 }
  
-// Driver code
+/*Driver code*/
 int main()
 {
     int arr[] = { 5, 1, 4, 2, 8};
