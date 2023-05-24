@@ -22,7 +22,7 @@ void selectionSort(int arr[], int n)
             swap(arr[min_idx], arr[i]);
     }
 }
-// Function to print an array
+/* Function to print an array */
 void printArray(int arr[], int size)
 {
     int i;
@@ -31,7 +31,7 @@ void printArray(int arr[], int size)
         cout << endl;
     }
 }
-// Driver program
+/* Driver program */
 int main()
 {
     int arr[] = { 67, 12, 11, 13, 5, 6 };
