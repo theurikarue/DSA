@@ -1,4 +1,4 @@
-// C++ code to linearly search x in arr[].
+/*C++ code to linearly search x in arr[].*/
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -11,7 +11,7 @@ int search(int arr[], int N, int x)
     return -1;
 }
 
-// Driver code
+/* Driver code*/
 int main(void)
 {
     int arr[] = {22, 55, 2, 3, 4, 10, 40 };
