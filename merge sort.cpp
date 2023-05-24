@@ -42,14 +42,14 @@ void merge(int array[], int const left, int const mid,
         }
         indexOfMergedArray++;
     }
-    // Copy the remaining elements of left[], if there are any
+    /* Copy the remaining elements of left[], if there are any*/
     while (indexOfSubArrayOne < subArrayOne) {
         array[indexOfMergedArray]
             = leftArray[indexOfSubArrayOne];
         indexOfSubArrayOne++;
         indexOfMergedArray++;
     }
-    // Copy the remaining elements of right[], if there are any
+    /* Copy the remaining elements of right[], if there are any*/
     while (indexOfSubArrayTwo < subArrayTwo) {
         array[indexOfMergedArray]
             = rightArray[indexOfSubArrayTwo];
@@ -60,7 +60,7 @@ void merge(int array[], int const left, int const mid,
     delete[] rightArray;
 }
  
-// begin is for left index and end is right index of the sub-arra of arr to be sorted */
+/* begin is for left index and end is right index of the sub-arra of arr to be sorted */
 void mergeSort(int array[], int const begin, int const end)
 {
     if (begin >= end)
@@ -72,14 +72,14 @@ void mergeSort(int array[], int const begin, int const end)
     merge(array, begin, mid, end);
 }
  
-// UTILITY FUNCTION Function to print an array
+/* UTILITY FUNCTION Function to print an array*/
 void printArray(int A[], int size)
 {
     for (auto i = 0; i < size; i++)
         cout << A[i] << " ";
 }
  
-// Driver code
+/* Driver code */
 int main()
 {
     int arr[] = { 43, 35, 12, 11, 13, 5, 6, 7 };
